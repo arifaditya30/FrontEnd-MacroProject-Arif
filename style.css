@@ -33,6 +33,11 @@ span2 {
   line-height: normal;
 }
 
+.container {
+  display: flex;
+  align-items: baseline;
+}
+
 .navbar-nav {
   font-family: Poppins;
   font-size: 18px;
@@ -90,5 +95,6 @@ h1 {
 
 .about,
 p {
-  width: 500px;
+  width: 400px;
+  align-items: baseline;
 }
