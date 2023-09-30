@@ -64,6 +64,11 @@ span2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 95rem;
+}
+
+h1 {
+  margin-bottom: 0;
 }
 
 .head {
@@ -73,4 +78,17 @@ span2 {
   line-height: normal;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 95rem;
+}
+
+.about,
+p {
+  width: 500px;
 }
