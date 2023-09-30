@@ -97,4 +97,5 @@ h1 {
 p {
   width: 400px;
   align-items: baseline;
+  text-align: justify;
 }
