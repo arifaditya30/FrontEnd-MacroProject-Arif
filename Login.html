@@ -15,14 +15,14 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-lg">
-        <a class="navbar-brand" href="#">Child<span>Pro</span></a>
+        <a class="navbar-brand" href="index.html">Child<span>Pro</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="#">Home</a>
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="#">About</a>
             <a class="nav-link" href="#">Doctor</a>
             <a class="nav-link" href="#">Article</a>
           </div>
@@ -32,41 +32,34 @@
     </nav>
     <!-- Navbar -->
 
-    <!-- HeroSection -->
-    <section class="herosection" id="heroSection">
+    <!-- Login -->
+    <section class="login" id="login">
       <div class="container">
-        <div class="row d-flex align-items-baseline justify-content-between">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-5">
+            <div class="col card p-4 form">
+              <form action="" method="post">
+                <h3>Sign in Your account</h3>
+                <p>Enter Your Detail Below</p>
+                <label for="username">Username</label>
+                <input type="email" class="form-control py-2 mb-3" placeholder="Username or Email" id="username" />
+                <label for="password">Password</label>
+                <input type="password" class="form-control py-2 mb-1" placeholder="Password" name="" id="password" />
+                <a href="" class="text-decoration-none text-black">Forgot Password?</a>
+                <center>
+                  <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold mt-3">Sign In</button>
+                  <hr />
+                  <p>Don't have Account? <a href="SignUp.html" class="text-decoration-none text-black fw-bold">Sign Up</a></p>
+                </center>
+              </form>
+            </div>
+          </div>
           <div class="col-lg-2">
             <div class="image"><img src="Assets/4887688_52068 1.png" alt="gambar" /></div>
-          </div>
-          <div class="col-lg-5">
-            <h1>Child<span2>Pro</span2></h1>
-            <h2>
-              With us follow the growth of <br />
-              your child
-            </h2>
-            <a href="Login.html" class="btn">Get Started</a>
           </div>
         </div>
       </div>
     </section>
-    <!-- HeroSection -->
-
-    <section class="about" id="about">
-      <div class="container">
-        <div class="row d-flex align-items-baseline justify-content-between">
-          <div class="col-lg-2">
-            <div class="image"><img src="Assets/4887688_52068 1.png" alt="gambar" /></div>
-          </div>
-          <div class="col-lg-5">
-            <h1>Child<span2>Pro</span2></h1>
-            <p>
-              ChildPro is a website engaged in the health sector Especially monitoring early childhood growth and development. Through this website, it is hoped that parents can more easily monitor and see the growth and development of
-              their children, so that they can grow and develop properly according to their age period.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Login -->
   </body>
 </html>

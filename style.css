@@ -49,21 +49,6 @@ span {
   background: rgba(47, 47, 47, 0.98);
 }
 
-.container-lg {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-}
-
-.content {
-  color: rgba(47, 47, 47, 0.98);
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
 span2 {
   color: rgba(255, 155, 80, 0.98);
   font-family: Poppins;
@@ -73,19 +58,26 @@ span2 {
 }
 
 p {
-  width: fit-content;
   text-align: justify;
 }
 
-.info {
-  display: flex;
-  justify-content: first baseline;
-  align-items: baseline;
-  color: rgba(255, 155, 80, 0.98);
+.form,
+.form input {
+  border-radius: 10px;
+  border-color: #ff9b50;
 }
 
-.item {
-  display: flex;
-  align-items: baseline;
-  margin-right: 8px;
+.form h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+label {
+  padding: 0px 10px 5px;
+  font-weight: 400;
+}
+
+.banner {
+  width: 250px;
+  height: auto;
 }
