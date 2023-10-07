@@ -42,6 +42,20 @@ span {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  color: aliceblue;
+}
+
+.btn-information {
+  border-radius: 10px;
+  background-color: rgba(255, 155, 80, 0.98);
+  font-size: 16px;
+  font-weight: 500px;
+  color: aliceblue;
+}
+
+.btn-consultation {
+  border-radius: 3px;
+  padding: 5px;
 }
 
 .btn:hover {
