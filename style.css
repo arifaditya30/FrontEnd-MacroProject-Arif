@@ -96,6 +96,10 @@ label {
   height: auto;
 }
 
+.card {
+  border-color: #ff9b50;
+}
+
 footer {
   background-color: #ff9b50;
   margin-top: 50px;
