@@ -42,7 +42,6 @@ span {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  color: aliceblue;
 }
 
 .btn-information {
@@ -56,6 +55,7 @@ span {
 .btn-consultation {
   border-radius: 3px;
   padding: 5px;
+  color: azure;
 }
 
 .btn:hover {
@@ -88,10 +88,38 @@ p {
 
 label {
   padding: 0px 10px 5px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .banner {
   width: 250px;
   height: auto;
+}
+
+footer {
+  background-color: #ff9b50;
+  margin-top: 50px;
+  min-height: 400px;
+}
+
+.footer .container .row {
+  padding-top: 50px;
+}
+
+.container .row .menu h4 {
+  color: #161615;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container .row .social-media img {
+  margin-right: 45px;
+}
+
+.container .credits p {
+  color: #3b3b3b;
+  font-weight: 300;
+  margin: 30px 0px;
+  padding-bottom: 50px;
 }
