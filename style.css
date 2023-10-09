@@ -44,6 +44,18 @@ span {
   line-height: normal;
 }
 
+.btn-credit {
+  background-color: rgb(148, 148, 148);
+  border-color: rgb(148, 148, 148);
+  border-radius: 5px;
+}
+
+.btn-credit-unselect {
+  background-color: rgb(65, 65, 65);
+  border-color: rgb(148, 148, 148);
+  border-radius: 5px;
+}
+
 .btn-information {
   border-radius: 10px;
   background-color: rgba(255, 155, 80, 0.98);
